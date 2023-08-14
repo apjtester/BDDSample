@@ -38,3 +38,10 @@ Scenario: Sample2
 	Given B
 	When I click on 'Exit'
 	Then D
+
+
+@CategoryA @CategoryC
+Scenario: Another Scenario
+	Given B
+	When I click on 'Exit'
+	Then D
